@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+  <policy policyType="sapodata" policyName="SAPviaOData1" policyTemplate="onprem_v1_basic">
+    <applicationType>onprem</applicationType>
+    <applicationVersion>v1</applicationVersion>
+    <authenticationMethod>BASIC</authenticationMethod>
+    <endpointUrl>REPLACE_WITH_YOUR_SAP_GATEWAY_SERVICE_URL</endpointUrl>
+    <credentialName>CompletePolicyProjectSAPOData_SAPviaOData1</credentialName>
+  </policy>
+</policies>

@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Kunnr": {
+        "title": "Kunnr",
+        "type": "string"
+      },
+      "FirstName": {
+        "title": "FirstName",
+        "type": "string"
+      },
+      "Name": {
+        "title": "Name",
+        "type": "string"
+      },
+      "Street": {
+        "title": "Street",
+        "type": "string"
+      },
+      "PostlCode": {
+        "title": "PostlCode",
+        "type": "string"
+      },
+      "City": {
+        "title": "City",
+        "type": "string"
+      },
+      "Region": {
+        "title": "Region",
+        "type": "string"
+      },
+      "Country": {
+        "title": "Country",
+        "type": "string"
+      },
+      "Langu": {
+        "title": "Langu",
+        "type": "string"
+      },
+      "Currency": {
+        "title": "Currency",
+        "type": "string"
+      },
+      "Salesorg": {
+        "title": "Salesorg",
+        "type": "string"
+      },
+      "DistrChan": {
+        "title": "DistrChan",
+        "type": "string"
+      },
+      "Division": {
+        "title": "Division",
+        "type": "string"
+      },
+      "RefCustmr": {
+        "title": "RefCustmr",
+        "type": "string"
+      }
+    },
+    "title": "CustomerSet",
+    "required": [
+      "FirstName",
+      "Name",
+      "Street",
+      "PostlCode",
+      "City",
+      "Region",
+      "Country",
+      "Langu",
+      "Currency",
+      "Salesorg",
+      "DistrChan",
+      "Division",
+      "RefCustmr"
+    ]
+  },
+  "type": "array",
+  "title": "CustomerSet"
+}
